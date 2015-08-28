@@ -8,8 +8,10 @@
    margin: 0 auto;
  }
 
- /** HEADER START **/
+ /************************ HEADER START ***************************/
 
+
+/** BACKGROUND IMAGE AND PSEUDO ELEMENT START **/
  .header {
    height: 525px;
    background-image: url(images/header.jpg);
@@ -28,7 +30,10 @@
    bottom: 0;
    right: 0;
  }
+ /** END OF BACKGROUND IMAGE AND PSEUDO ELEMENT START **/
 
+
+/** START LEFTSIDE LOGO AND SMALL PARA **/
  .header-logo {
    display: inline-block;
    width: 240px;
@@ -50,7 +55,10 @@
    margin-top: 5px;
    display: inline-block;
  }
+/** END OF LEFTSIDE LOGO AND SMALL PARA **/
 
+
+/** START OF RIGHTSIDE LOGO AND SMALL PARA **/
  .header-pages {
    font-family: "Open Sans", "Helvetica", "sans-serif";
    float: right;
@@ -71,8 +79,11 @@
    color: #0B3450;
    font-size: 20px;
  }
+/** END OF RIGHTSIDE LOGO AND SMALL PARA **/
 
- .header-img {
+
+/** START OF MAIN HEADER TEXT **/
+ .header-para1 {
    font-family: "Open Sans", "Helvetica", "sans-serif";
    color: white;
    text-transform: uppercase;
@@ -87,7 +98,7 @@
    z-index: 3;
  }
 
- .header-img2 {
+ .header-para2 {
    font-family: "Open Sans", "Helvetica", "sans-serif";
    position: absolute;
    text-align: center;
@@ -107,5 +118,27 @@
    position: relative;
    z-index: 2;
  }
+/** END OF MAIN HEADER TEXT **/
 
- /** END OF HEADER **/
+
+ /**************** END OF HEADER ****************************/
+
+
+ /** START OF LEFTSIDE **/
+
+ .container-left {
+   padding-top: 450px;
+ }
+
+ .headline-left {
+   font-size: 65px;
+   text-transform: uppercase;
+   color: #113551;
+   font-family: "Oswald", "Helvetica", "sans-serif";
+   padding-left: 150px;
+   background-color: red;
+   text-align: left;
+
+
+   /**display: table-caption;**/
+ }
