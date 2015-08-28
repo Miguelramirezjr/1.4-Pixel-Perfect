@@ -136,9 +136,113 @@
    color: #113551;
    font-family: "Oswald", "Helvetica", "sans-serif";
    padding-left: 150px;
-   background-color: red;
-   text-align: left;
+   padding-top: 70px;
+   line-height: 75px;
+   margin: 0;
+   position: relative;
+   overflow: hidden;
+ }
 
+ .headline-left p {
+   margin: 0;
+ }
 
-   /**display: table-caption;**/
+ .smallfacelogo {
+   position: absolute;
+   margin: 0;
+   padding-left: 150px;
+ }
+
+ .anne {
+   margin: 0;
+   position: absolute;
+   padding-left: 185px;
+   padding-top: 10px;
+   color: #2A74B2;
+ }
+
+ .anne p {
+   margin: 0;
+ }
+
+ .monday {
+   margin: 0;
+   position: absolute;
+   padding-left: 275px;
+   padding-top: 10px;
+ }
+
+ .monday p {
+   margin: 0;
+ }
+
+ .para1left {
+   margin: 0;
+   position: absolute;
+   padding-left: 149px;
+   padding-top: 50px;
+   font-size: 18px;
+ }
+
+ .para1left p {
+   margin: 0;
+ }
+
+ .woah {
+   text-transform: uppercase;
+   font-family: "Open Sans", "Helvetica", "sans-serif";
+   position: absolute;
+   padding-left: 179px;
+   padding-top: 235px;
+   font-size: 26px;
+   color: #2570B0;
+ }
+
+ .woah h2 {
+   margin: 0;
+ }
+
+ .para2left {
+   margin: 0;
+   position: absolute;
+   padding-top: 300px;
+   font-size: 18px;
+   padding-left: 149px;
+ }
+
+ .para2left {
+   margin: 0;
+ }
+
+ .para3left {
+   margin: 0;
+   position: absolute;
+   padding-left: 149px;
+   font-size: 18px;
+   padding-top: 450px;
+ }
+
+ .para4left {
+   margin: 0;
+   position: absolute;
+   padding-left: 149px;
+   font-size: 18px;
+   padding-top: 550px;
+ }
+
+ .read {
+   position: absolute;
+   margin: 0;
+   padding-left: 149px;
+   padding-top: 690px;
+ }
+
+ .read a {
+   text-decoration: none;
+   /**border-color: #A5B3BE;**/
+   /**border: solid;**/
+ }
+
+ .action-icon1 {
+   background-color: #A5B3BE;
  }
