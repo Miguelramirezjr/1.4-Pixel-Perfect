@@ -247,109 +247,102 @@
 
 /*************************START OF LEFTSIDE BUTTONS **********************/
 
+/*** READ COMMENTS START ****/
  .btn-container1 {
    position: absolute;
    margin: 0;
    padding-left: 150px;
    padding-top: 650px;
-   margin: 0;
  }
 
  .btn-comment {
-   width: 147px;
-   height: 27px;
+   width: 122px;
+   height: 30px;
    background: #5e686f;
    text-align: center;
    color: white;
    margin: 0;
    display: inline-block;
+   vertical-align: top;
+   margin-left: -4px;
  }
 
  .btn-left1 {
    height: 30px;
+   width: 30px;
    background-color: red;
    display: inline-block;
    text-align: center;
    margin: 0;
+
    }
 
- .btn-container1 p {
-   margin: 0;
- }
+/*** READ COMMENTS END ***/
 
- .btn-comment p {
-   margin: 0;
- }
-
- .btn-left1 img {
-   margin: 0;
- }
-
-
-
-
+/*** READ LATER STARTS ***/
 
  .btn-container2 {
    vertical-align: middle;
    margin: 0;
-   padding-left: 450px;
+   padding-left: 315px;
    padding-top: 650px;
 
  }
 
  .btn-later {
-   width: 147px;
-   height: 27px;
+   width: 122px;
+   height: 30px;
    background: #5e686f;
    text-align: center;
    color: white;
    margin: 0;
    display: inline-block;
+   vertical-align: top;
+   margin-left: -4px;
 
  }
 
  .btn-left2 {
    height: 30px;
+   width: 30px;
    background-color: red;
    display: inline-block;
    text-align: center;
    margin: 0;
    }
 
- .btn-left2 p {
-   text-align: center;
-   margin: 0;
- }
+/*** READ LATER ENDS ***/
 
+/*** SHARE STARTS ***/
 
  .btn-container3 {
    vertical-align: middle;
    margin: 0;
-   padding-left: 450px;
-   padding-top: 650px;
+   padding-left: 500px;
+   background-color: blue;
+
 
  }
 
  .btn-share {
-   width: 147px;
-   height: 27px;
+   width: 122px;
+   height: 30px;
    background: #5e686f;
    text-align: center;
    color: white;
    margin: 0;
    display: inline-block;
-
+   vertical-align: top;
+   margin-left: -4px;
  }
 
  .btn-left3 {
    height: 30px;
+   width: 30px;
    background-color: red;
    display: inline-block;
    text-align: center;
    margin: 0;
    }
 
- .btn-left3 p {
-   text-align: center;
-   margin: 0;
- }
+/*** SHARE ENDS ***/
