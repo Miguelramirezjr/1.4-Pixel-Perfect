@@ -6,6 +6,13 @@
  .container {
    width: 1030px;
    margin: 0 auto;
+   position: relative;
+   z-index: 4;
+ }
+
+ a {
+   text-decoration: none;
+   color: inherit;
  }
 
  /************************ HEADER START ***************************/
@@ -210,7 +217,7 @@
    padding-left: 149px;
  }
 
- .para2left {
+ .para2left p {
    margin: 0;
  }
 
@@ -222,6 +229,10 @@
    padding-top: 450px;
  }
 
+ .para3left p {
+   margin: 0;
+ }
+
  .para4left {
    margin: 0;
    position: absolute;
@@ -230,19 +241,115 @@
    padding-top: 550px;
  }
 
- .read {
+ .para4left p {
+   margin: 0;
+ }
+
+/*************************START OF LEFTSIDE BUTTONS **********************/
+
+ .btn-container1 {
    position: absolute;
    margin: 0;
-   padding-left: 149px;
-   padding-top: 690px;
+   padding-left: 150px;
+   padding-top: 650px;
+   margin: 0;
  }
 
- .read a {
-   text-decoration: none;
-   /**border-color: #A5B3BE;**/
-   /**border: solid;**/
+ .btn-comment {
+   width: 147px;
+   height: 27px;
+   background: #5e686f;
+   text-align: center;
+   color: white;
+   margin: 0;
+   display: inline-block;
  }
 
- .action-icon1 {
-   background-color: #A5B3BE;
+ .btn-left1 {
+   height: 30px;
+   background-color: red;
+   display: inline-block;
+   text-align: center;
+   margin: 0;
+   }
+
+ .btn-container1 p {
+   margin: 0;
+ }
+
+ .btn-comment p {
+   margin: 0;
+ }
+
+ .btn-left1 img {
+   margin: 0;
+ }
+
+
+
+
+
+ .btn-container2 {
+   vertical-align: middle;
+   margin: 0;
+   padding-left: 450px;
+   padding-top: 650px;
+
+ }
+
+ .btn-later {
+   width: 147px;
+   height: 27px;
+   background: #5e686f;
+   text-align: center;
+   color: white;
+   margin: 0;
+   display: inline-block;
+
+ }
+
+ .btn-left2 {
+   height: 30px;
+   background-color: red;
+   display: inline-block;
+   text-align: center;
+   margin: 0;
+   }
+
+ .btn-left2 p {
+   text-align: center;
+   margin: 0;
+ }
+
+
+ .btn-container3 {
+   vertical-align: middle;
+   margin: 0;
+   padding-left: 450px;
+   padding-top: 650px;
+
+ }
+
+ .btn-share {
+   width: 147px;
+   height: 27px;
+   background: #5e686f;
+   text-align: center;
+   color: white;
+   margin: 0;
+   display: inline-block;
+
+ }
+
+ .btn-left3 {
+   height: 30px;
+   background-color: red;
+   display: inline-block;
+   text-align: center;
+   margin: 0;
+   }
+
+ .btn-left3 p {
+   text-align: center;
+   margin: 0;
  }
