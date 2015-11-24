@@ -6,7 +6,7 @@ body {
     width: 1030px;
     margin: 0 auto;
     position: relative;
-    z-index: 4;
+    /*z-index: 4;*/
 }
 
 ul {
@@ -50,15 +50,6 @@ a {
     z-index: 1;
 }
 
-.header:hover::after {
-    height: 525px;
-    background-image: url(images/header.jpg);
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    overflow: hidden;
-    position: relative;
-}
-
 .header-logo { /** LEFT SIDE LOGO AND TEXT ALINGMENT **/
     display: inline-block;
     width: 260px;
@@ -94,7 +85,6 @@ a {
 
 .header-pages a { /** RIGHTSIDE ALIGNMENT **/
     display: inline-block;
-    vertical-align: top;
     margin-top: 18px;
     margin-right: 15px;
 }
@@ -227,12 +217,16 @@ time {
 
 .blog-author-img {
     display: inline-block;
-    height: 22px;
-    width: 22px;
-    background-image: url(images/me2.jpg);
-    background-size: 22px 22px;
+    height: 25px;
+    width: 25px;
+    background-image: url(images/small-me-1.jpg);
+    background-size: 25px 25px;
     border-radius: 50%;
     position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
     z-index: 1;
 }
 
@@ -251,12 +245,15 @@ time {
 
 .blog-author-img:hover::after {
     display: inline-block;
-    height: 22px;
-    width: 22px;
-    background-image: url(images/me2.jpg);
-    background-size: 22px 22px;
+    height: 25px;
+    width: 25px;
+    background-size: 25px 25px;
     border-radius: 50%;
     position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
     z-index: 1;
 }
 
@@ -266,7 +263,7 @@ time {
 
 
 .blog-actions {
-    display: flex;
+    display: inline-flex;
     margin-top: 20px;
     margin-left: 5px;
 }
@@ -276,13 +273,14 @@ time {
     margin-right: 10px;
     vertical-align: middle;
     background-color: #196EB0;
+    -webkit-transition: all .2s ease-in;
 }
 
 .comments:hover {
     background-color: #A3B3BE;
 }
 
-.comments:hover::after {
+.comments::after:hover {
     background-color: #196EB0;
 }
 
@@ -306,6 +304,7 @@ time {
     margin-right: 10px;
     vertical-align: middle;
     background-color: #196EB0;
+    -webkit-transition: all .2s ease-in;
 }
 
 .read-later:hover {
@@ -336,6 +335,7 @@ time {
     margin-right: 10px;
     vertical-align: middle;
     background-color: #196EB0;
+    -webkit-transition: all .2s ease-in;
 }
 
 .share:hover {
@@ -373,9 +373,7 @@ time {
     display: inline-block;
 }
 
-
 /*** -------- END MAIN BLOG AREA ---------------- ***/
-
 
 /*** ------- START OF RIGHTSIDE BAR -------- ***/
 
@@ -399,7 +397,7 @@ time {
     width: 84px;
     height: 84px;
     border-radius: 50%;
-    background-image: url(images/me2.jpg);
+    background-image: url(images/big-me-1.jpg);
     background-size: 84px 84px;
     margin: 0 auto;
     position: relative;
@@ -408,7 +406,6 @@ time {
     bottom: 0;
     left: 0;
     z-index: 1;
-    -webkit-transition: .2s ease-in;
 }
 
 .profile-img::after {
@@ -428,7 +425,6 @@ time {
     width: 84px;
     height: 84px;
     border-radius: 50%;
-    background-image: url(images/me2.jpg);
     background-size: 84px 84px;
     margin: 0 auto;
     position: relative;
@@ -438,8 +434,6 @@ time {
     left: 0;
     z-index: 1;
 }
-
-
 
 .profile-social p {
     color: #1570B4;
@@ -478,10 +472,11 @@ time {
     height: 300px;
     width: 278px;
     background-image: url(images/ad-image.jpg);
-    background-size: 278px 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     position: relative;
     z-index: 1;
-    -webkit-transition: .2s ease-in;
 }
 
 .ad-img::after {
@@ -494,16 +489,6 @@ time {
     bottom: 0;
     left: 0;
     z-index: 2;
-}
-
-.ad-img:hover::after {
-    display: inline-block;
-    height: 300px;
-    width: 278px;
-    background-image: url(images/ad-image.jpg);
-    background-size: 278px 300px;
-    position: relative;
-    z-index: 1;
 }
 
 .adv a {
@@ -627,7 +612,8 @@ time {
     display: inline-block;
     font-family: "Oswald", "Helvetica", "sans-serif";
     font-weight: 400;
-    color: #0B3451;
+    /*color: #0B3451;*/
+    color: #FFF;
     text-transform: uppercase;
     font-size: 2.2em;
     position: absolute;
@@ -645,7 +631,8 @@ time {
     display: inline-block;
     font-family: "Oswald", "Helvetica", "sans-serif";
     font-weight: 400;
-    color: #0B3451;
+    /*color: #0B3451;*/
+    color: #FFF;
     text-transform: uppercase;
     font-size: 2.2em;
     position: absolute;
@@ -663,7 +650,8 @@ time {
     display: inline-block;
     font-family: "Oswald", "Helvetica", "sans-serif";
     font-weight: 400;
-    color: #0B3451;
+    /*color: #0B3451;*/
+    color: #FFF;
     text-transform: uppercase;
     font-size: 2.0em;
     position: absolute;
@@ -681,7 +669,8 @@ time {
     display: inline-block;
     font-family: "Oswald", "Helvetica", "sans-serif";
     font-weight: 400;
-    color: #0B3451;
+    /*color: #0B3451;*/
+    color: #FFF;
     text-transform: uppercase;
     font-size: 2.2em;
     position: absolute;
@@ -703,7 +692,6 @@ time {
     -webkit-transition: all .2s ease-in;
     background-color: blue;
     background-color: rgba(17, 101, 163, .7);
-
 }
 
 .footer-post-sect-01 {
@@ -714,6 +702,8 @@ time {
     vertical-align: bottom;
     background-image: url(images/footer-pic1.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     position: relative;
     top: 0;
     right: 0;
@@ -730,6 +720,8 @@ time {
     vertical-align: bottom;
     background-image: url(images/footer-pic2.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     position: relative;
     top: 0;
     right: 0;
@@ -746,6 +738,8 @@ time {
     vertical-align: bottom;
     background-image: url(images/footer-pic3.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     position: relative;
     top: 0;
     right: 0;
@@ -762,6 +756,8 @@ time {
     vertical-align: bottom;
     background-image: url(images/footer-pic4.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     position: relative;
     top: 0;
     right: 0;
